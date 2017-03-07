@@ -27,7 +27,7 @@ export class EntrenadorComponent implements OnInit {
         (res: Response) => {
           this.entrenadores = res.json()
             .map((value) => {
-              value.formularioCerrado = true;
+              value.formularioCerrado = false;
               return value;
             });
         },
@@ -38,12 +38,14 @@ export class EntrenadorComponent implements OnInit {
   }
 
   crearEntrenador(formulario: NgForm) {
+    let nombre=formulario.value.nombre;
     console.log(formulario);
     this.disabledButtons.NuevaEntrenadorFormSubmitButton = true;
     this._http.post(this._masterURL.url + "Entrenador", {
       nombre: formulario.value.nombre,
       fechaInicio: formulario.value.fechaInicio,
-      region:formulario.value.region
+      region:formulario.value.region,
+      imagen:nombre,
     }).subscribe(
       (res) => {
         console.log("No hubo Errores");
@@ -80,6 +82,7 @@ export class EntrenadorComponent implements OnInit {
       nombre: entrenador.nombre,
       fechaInicio: entrenador.fechaInicio,
       region:entrenador.region
+
     };
     this._http.put(this._masterURL.url + "Entrenador/" + entrenador.id, parametos)
       .subscribe(

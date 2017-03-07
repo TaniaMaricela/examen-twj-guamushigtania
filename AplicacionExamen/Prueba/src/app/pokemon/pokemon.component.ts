@@ -46,6 +46,8 @@ export class PokemonComponent implements OnInit {
   }
   crearPokemon(formulario: NgForm){
     let nombre=formulario.value.nombre;
+    console.log(this._parametros.idEntrenador);
+    console.log(nombre);
     let pokemon = {
       nombre:nombre,
       tipo1:formulario.value.tipo1,

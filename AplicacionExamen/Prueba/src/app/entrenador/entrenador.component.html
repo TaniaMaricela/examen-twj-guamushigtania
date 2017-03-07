@@ -10,16 +10,29 @@
 
       <div class="form-group">
         <label>Nombres</label>
-        <input required
-               minlength="4"
-               type="text"
-               class="form-control"
-               placeholder="Digite un Nombre"
-               name="nombre"
-               [(ngModel)]="nuevaEntrenador.nombre"
-               #nombre="ngModel"
-               #nombreElm
-               style="background-color: rgba(0, 0, 0, .5); color: yellow">
+        <!--<input required minlength="4" type="text" class="form-control" placeholder="Digite un Nombre" name="nombre"
+               [(ngModel)]="nuevaEntrenador.nombre" #nombre="ngModel" #nombreElm
+               style="background-color: rgba(0, 0, 0, .5); color: yellow">-->
+        <select type="text" class="form-control" placeholder="Digite un Nombre" name="nombre"
+                [(ngModel)]="nuevaEntrenador.nombre" #nombre="ngModel" #nombreElm
+                style="background-color: rgba(0, 0, 0, .5); color: yellow">
+          <option>Ash</option>
+          <option>Brock</option>
+          <option>Eco</option>
+          <option>Gary</option>
+          <option>Guay</option>
+          <option>Hoja</option>
+          <option>James</option>
+          <option>Jenny</option>
+          <option>Jessie</option>
+          <option>Joy</option>
+          <option>May</option>
+          <option>Misty</option>
+          <option>Red</option>
+          <option>Rogue</option>
+          <option>Sinnoh</option>
+          <option>Tracey</option>
+        </select>
       </div>
 
       <div class="form-group">
@@ -66,7 +79,10 @@
               <div class="col-sm-2">
                 ID: {{entrenador.id}}
               </div>
-              <div class="col-sm-7 text-center">
+              <div class="col-sm-2">
+                <img align="center" id="if" src="../../assets/imagenes/entrenadores/{{entrenador.imagen}}.png" height="90px">
+              </div>
+              <div class="col-sm-5 text-center">
                 <div class="text-center ma-borde" style="margin-top: 10px;">
                   <p>
                     {{entrenador.nombre}}
@@ -98,7 +114,7 @@
       </div>
       <br>
 
-      <div class="div" [hidden]="entrenador.formularioCerrado">
+      <div class="div" [hidden]="!entrenador.formularioCerrado">
         <div class="row">
           <div class="col-sm-11 opaque1">
             <div class="col-sm-12">

@@ -10,7 +10,7 @@
 
       <div class="form-group">
         <label>Nombre</label>
-        <select class="form-control" id="select1" name="nombre" [(ngModel)]="nuevoPokemon.nombre" onchange="cambiar();"
+        <select class="form-control" id="select1" name="nombre" [(ngModel)]="nuevoPokemon.nombre"
                 style="background-color: rgba(0, 0, 0, .5); color: yellow">
           <option>Abra</option>
           <option>Aerodactyl</option>
@@ -237,7 +237,6 @@
               <div class="col-sm-2">
                 ID: {{pokemon.id}}
               </div>
-
               <div class="col-sm-2">
                 <img align="center" id="if" src="../../assets/pokemon/{{pokemon.imagen}}.png" height="90px">
               </div>
@@ -268,7 +267,7 @@
       </div>
       <br>
 
-      <div class="row" [hidden]="pokemon.formularioCerrado">
+      <div class="row" [hidden]="!pokemon.formularioCerrado">
         <div class="row">
           <div class="col-sm-11 opaque1">
             <div class="col-sm-12">
@@ -280,7 +279,7 @@
                         #NuevaPokemonForm2="ngForm" method="post">
                     <div class="form-group">
                       <label>Nombre</label>
-                      <input type="text" class="form-control" placeholder="Ingrese nombre del pokémon" name="nombre"
+                      <input type="text" class="form-control" placeholder="Ingrese nombre del pokémon" name="nombres"
                              [(ngModel)]="pokemon.nombre"
                              #nombre="ngModel"
                              #nombreElm style="background-color: rgba(0, 0, 0, .5); color: yellow">
