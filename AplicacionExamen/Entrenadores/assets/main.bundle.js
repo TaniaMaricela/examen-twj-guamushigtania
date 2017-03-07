@@ -18,8 +18,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var MasterURlService = (function () {
     function MasterURlService() {
-        this._url = "http://localhost:1337/";
-        // this.url = "https://aplicacion-adrianeguez.c9users.io"
+        //this._url = "http://localhost:1337/";
+        this.url = "https://examen-twj-guamushigtania-master-taniamaricela1993.c9users.io";
         // this.url = "https://asdasd-asdasdasd.herokuapp.com"
     }
     Object.defineProperty(MasterURlService.prototype, "url", {

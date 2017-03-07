@@ -6,7 +6,7 @@ export class MasterURlService {
 
   constructor() {
     //this._url = "http://localhost:1337/";
-    this.url = "https://examen-twj-guamushigtania-taniamaricela1993.c9users.io"
+    this.url = "https://examen-twj-guamushigtania-master-taniamaricela1993.c9users.io"
     // this.url = "https://asdasd-asdasdasd.herokuapp.com"
   }
 
