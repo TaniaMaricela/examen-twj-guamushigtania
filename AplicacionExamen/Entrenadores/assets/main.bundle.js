@@ -19,7 +19,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var MasterURlService = (function () {
     function MasterURlService() {
         //this._url = "http://localhost:1337/";
-        this.url = "https://examen-twj-guamushigtania-master-taniamaricela1993.c9users.io";
+        this.url = "https://examen-twj-guamushigtania-master-taniamaricela1993.c9users.io/";
         // this.url = "https://asdasd-asdasdasd.herokuapp.com"
     }
     Object.defineProperty(MasterURlService.prototype, "url", {
@@ -38,7 +38,7 @@ var MasterURlService = (function () {
     ], MasterURlService);
     return MasterURlService;
 }());
-//# sourceMappingURL=D:/Tec_Web_Js/examen-twj-guamushigtania/AplicacionExamen/Prueba/src/master-url.service.js.map
+//# sourceMappingURL=D:/Tec_Web_Js/examen-twj-guamushigtania/AplicacionExamen/AplicacionExamen/src/master-url.service.js.map
 
 /***/ }),
 
@@ -144,7 +144,7 @@ var EntrenadorComponent = (function () {
     return EntrenadorComponent;
     var _a, _b;
 }());
-//# sourceMappingURL=D:/Tec_Web_Js/examen-twj-guamushigtania/AplicacionExamen/Prueba/src/entrenador.component.js.map
+//# sourceMappingURL=D:/Tec_Web_Js/examen-twj-guamushigtania/AplicacionExamen/AplicacionExamen/src/entrenador.component.js.map
 
 /***/ }),
 
@@ -179,7 +179,7 @@ var HomeComponent = (function () {
     ], HomeComponent);
     return HomeComponent;
 }());
-//# sourceMappingURL=D:/Tec_Web_Js/examen-twj-guamushigtania/AplicacionExamen/Prueba/src/home.component.js.map
+//# sourceMappingURL=D:/Tec_Web_Js/examen-twj-guamushigtania/AplicacionExamen/AplicacionExamen/src/home.component.js.map
 
 /***/ }),
 
@@ -289,7 +289,7 @@ var PokemonComponent = (function () {
     return PokemonComponent;
     var _a, _b, _c;
 }());
-//# sourceMappingURL=D:/Tec_Web_Js/examen-twj-guamushigtania/AplicacionExamen/Prueba/src/pokemon.component.js.map
+//# sourceMappingURL=D:/Tec_Web_Js/examen-twj-guamushigtania/AplicacionExamen/AplicacionExamen/src/pokemon.component.js.map
 
 /***/ }),
 
@@ -324,7 +324,7 @@ if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment *
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["a" /* enableProdMode */])();
 }
 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]);
-//# sourceMappingURL=D:/Tec_Web_Js/examen-twj-guamushigtania/AplicacionExamen/Prueba/src/main.js.map
+//# sourceMappingURL=D:/Tec_Web_Js/examen-twj-guamushigtania/AplicacionExamen/AplicacionExamen/src/main.js.map
 
 /***/ }),
 
@@ -359,7 +359,7 @@ var AppComponent = (function () {
     ], AppComponent);
     return AppComponent;
 }());
-//# sourceMappingURL=D:/Tec_Web_Js/examen-twj-guamushigtania/AplicacionExamen/Prueba/src/app.component.js.map
+//# sourceMappingURL=D:/Tec_Web_Js/examen-twj-guamushigtania/AplicacionExamen/AplicacionExamen/src/app.component.js.map
 
 /***/ }),
 
@@ -427,7 +427,7 @@ var AppModule = (function () {
     ], AppModule);
     return AppModule;
 }());
-//# sourceMappingURL=D:/Tec_Web_Js/examen-twj-guamushigtania/AplicacionExamen/Prueba/src/app.module.js.map
+//# sourceMappingURL=D:/Tec_Web_Js/examen-twj-guamushigtania/AplicacionExamen/AplicacionExamen/src/app.module.js.map
 
 /***/ }),
 
@@ -452,7 +452,7 @@ var routes = [
     { path: 'entrenador/:idEntrenador/pokemon', component: __WEBPACK_IMPORTED_MODULE_3__pokemon_pokemon_component__["a" /* PokemonComponent */] }
 ];
 var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule */].forRoot(routes);
-//# sourceMappingURL=D:/Tec_Web_Js/examen-twj-guamushigtania/AplicacionExamen/Prueba/src/app.routes.js.map
+//# sourceMappingURL=D:/Tec_Web_Js/examen-twj-guamushigtania/AplicacionExamen/AplicacionExamen/src/app.routes.js.map
 
 /***/ }),
 
@@ -468,7 +468,7 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule 
 var environment = {
     production: false
 };
-//# sourceMappingURL=D:/Tec_Web_Js/examen-twj-guamushigtania/AplicacionExamen/Prueba/src/environment.js.map
+//# sourceMappingURL=D:/Tec_Web_Js/examen-twj-guamushigtania/AplicacionExamen/AplicacionExamen/src/environment.js.map
 
 /***/ }),
 
