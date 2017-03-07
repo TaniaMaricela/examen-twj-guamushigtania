@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Pokemon</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- BOOTSTRAP CSS-->
+  <link rel="stylesheet" href="assets/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+  <!-- BOOTSTRAP CSS-->
+  <link rel="stylesheet" href="assets/animate.css">
+  <!-- Estilos CSS-->
+  <link rel="stylesheet" href="assets/bootstrap-3.3.7-dist/estilos.css">
+  <!-- Sweet Alert CSS
+  <link rel="stylesheet" href="assets/bootstrap-3.3.7-dist/sweetalert2.min.css">-->
+  <!-- Jquery-->
+  <script src="assets/jquery-3.1.1.min.js"></script>
+  <!-- BOOTSTRAP js-->
+  <script src="assets/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<app-root>Loading...</app-root>
+</body>
+</html>
+<script type="text/javascript">
+
+  function cambiar () {
+    var porId=document.getElementById("select1").value;
+    document.getElementById('img1').src = "../../assets/pokemon/"+porId+".png";
+    document.getElementById('inputImagen').value = porId;
+  }
+
+  function ver() {
+
+    document.getElementById("pokeball").className = "poke";
+    document.getElementById("pokeball2").className = "poke";
+  }
+  function noVer() {
+    document.getElementById("pokeball").className = "hidden";
+    document.getElementById("pokeball2").className = "hidden";
+  }
+
+
+</script>
